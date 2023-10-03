@@ -17,19 +17,19 @@ export default class App extends React.Component {
     this.state = {
       movies: [],
       searchQuery: "",
-      // favMovies: favMoviesLS, // imported from local storage
-      favMovies: "marvel", // get data from local storage inside componentDidMount
+      favMovies: favMoviesLS, // imported from local storage
+      // favMovies: "", // get data from local storage inside componentDidMount
       menuParam: "",
       responseStatus: true,
     };
   }
 
-  componentDidMount() {
-    const favMoviesFromLocalStorage = JSON.parse(
-      localStorage.getItem("favMovies")
-    );
-    this.setState({ favMovies: favMoviesFromLocalStorage });
-  }
+  // componentDidMount() {
+  //   const favMoviesFromLocalStorage = JSON.parse(
+  //     localStorage.getItem("favMovies")
+  //   );
+  //   this.setState({ favMovies: favMoviesFromLocalStorage });
+  // }
 
   fetchMovies = (url) => {
     axios.get(url).then((response) => {
