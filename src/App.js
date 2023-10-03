@@ -18,7 +18,7 @@ export default class App extends React.Component {
       movies: [],
       searchQuery: "",
       // favMovies: favMoviesLS, // imported from local storage
-      favMovies: "", // get data from local storage inside componentDidMount
+      favMovies: "marvel", // get data from local storage inside componentDidMount
       menuParam: "",
       responseStatus: true,
     };
