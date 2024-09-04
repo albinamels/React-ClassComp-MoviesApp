@@ -4,3 +4,6 @@
 - utilized Axios for efficient data fetching 
 - implemented local storage for seamless access to preferred locations and settings across sessions 
 - deployed via Netlify
+
+![search](https://github.com/albinamels/React-ClassComp-MoviesApp/blob/master/src/search.png)
+![favorites category](https://github.com/albinamels/React-ClassComp-MoviesApp/blob/master/src/favorite.png)
